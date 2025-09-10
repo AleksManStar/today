@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BSParts.info - Original Car Parts</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-card container">
+      <div class="hero-text">
+        <h1>BSParts.info</h1>
+        <p class="lead">We help you find and order original car parts from trusted dealers and manufacturers worldwide.</p>
+        <ul class="points">
+          <li>✔ Only certified suppliers</li>
+          <li>✔ Fast global delivery</li>
+          <li>✔ Best price guarantee</li>
+        </ul>
+      </div>
+
+      <div class="form-card">
+        <h2>Get the best offer</h2>
+        <form id="partsForm">
+          <label for="brand">Brand</label>
+          <select id="brand" name="brand" required>
+            <option value="">Select brand</option>
+            <option value="Audi">Audi</option>
+            <option value="BMW">BMW</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Toyota">Toyota</option>
+            <option value="Volkswagen">Volkswagen</option>
+            <option value="Ford">Ford</option>
+            <option value="Honda">Honda</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Kia">Kia</option>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Mazda">Mazda</option>
+            <option value="Lexus">Lexus</option>
+            <option value="Peugeot">Peugeot</option>
+          </select>
+
+          <label for="model">Model</label>
+          <select id="model" name="model">
+            <option value="">Select model</option>
+          </select>
+
+          <label for="otherModel">Other model (if not listed)</label>
+          <input type="text" id="otherModel" name="otherModel" placeholder="Enter your model" />
+
+          <label for="year">Year</label>
+          <select id="year" name="year" required></select>
+
+          <label for="part">Part needed</label>
+          <input type="text" id="part" name="part" placeholder="e.g. brake pads" required />
+
+          <label for="contact">Your email</label>
+          <input type="email" id="contact" name="contact" placeholder="example@mail.com" required />
+
+          <button type="submit">Send Request</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="card-section">
+    <h2>Why choose us</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <img src="images/icon-warranty.png" alt="Warranty">
+        <h3>Certified Quality</h3>
+        <p>All parts come directly from official dealers and manufacturers.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/icon-delivery.png" alt="Delivery">
+        <h3>Worldwide Shipping</h3>
+        <p>We deliver parts to any country with reliable logistics partners.</p>
+      </div>
+      <div class="feature-card">
+        <img src="images/icon-dealer.png" alt="Dealer">
+        <h3>Best Price</h3>
+        <p>We compare offers from trusted suppliers to give you the best deal.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- STEPS -->
+  <section class="card-section">
+    <h2>How it works</h2>
+    <div class="steps-grid">
+      <div class="step">
+        <div class="step-num">1</div>
+        <p>Fill out the request form with car details.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <p>We search across verified suppliers and dealers.</p>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <p>You get the best offer directly to your email.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="card-section">
+    <h2>What our clients say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <img src="images/client1.jpg" alt="Client">
+        <blockquote>"Great service! Found original parts for my Audi in just 2 days."</blockquote>
+        <div class="author">— John D.</div>
+      </div>
+      <div class="testimonial">
+        <img src="images/client2.jpg" alt="Client">
+        <blockquote>"Fast delivery and very helpful support team. Recommended!"</blockquote>
+        <div class="author">— Maria S.</div>
+      </div>
+      <div class="testimonial">
+        <img src="images/client3.jpg" alt="Client">
+        <blockquote>"They helped me save money and time on finding rare spare parts."</blockquote>
+        <div class="author">— Alex P.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="card-section">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <button class="faq-question">Are all parts original?</button>
+      <div class="faq-answer">Yes, we work only with certified manufacturers and official dealers.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">Do you ship worldwide?</button>
+      <div class="faq-answer">Yes, we deliver to any country with reliable logistics partners.</div>
+    </div>
+    <div class="faq-item">
+      <button class="faq-question">How long does delivery take?</button>
+      <div class="faq-answer">Delivery time depends on supplier location, usually 5–14 days.</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2025 BSParts.info | Contact: info@bsparts.info</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
